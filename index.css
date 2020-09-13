@@ -141,7 +141,7 @@ h4 {
             display: grid;
             margin-left: 8vw;
             justify-content: flex-start;
-            grid-gap: 45px;
+            grid-gap: 4%;
             grid-template-columns: auto auto;
         
             grid-template-areas: 
@@ -151,7 +151,7 @@ h4 {
         }
         img {
 
-            height: 83vh;
+            height: auto;
             width: 35vw;
             box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.35);
             border-radius: 5px;
@@ -182,4 +182,40 @@ h4 {
             grid-area: m6;
             margin-top: 70px;
         }
+        span {
+            
+            height: auto;
+            
+        }
+        
+}
+@media (max-width: 520px){
+    span br {
+        content: " ";
+        display: none;
+    }
+}
+@media (max-width: 320px){
+    span {
+        
+        font-size: 1%;
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+    img {
+        margin-right: 0;
+        box-shadow: none;
+        border-radius: none;
+    }
+    .container {
+        justify-content: center;
+        grid-gap: 4%;
+        grid-template-columns: auto auto;
+        grid-template-areas: 
+        "m1 m2"
+        "m3 m4"
+        "m5 m6";
+    }
+
 }
