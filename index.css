@@ -208,7 +208,7 @@ h4 {
             display: grid;
             margin-left: 8vw;
             justify-content: flex-start;
-            grid-gap:12%;
+            grid-gap: 12%;
             grid-template-columns: auto auto;
         
             grid-template-areas: 
