@@ -189,7 +189,9 @@ h4 {
         }
         
 }
-@media (max-width: 520px){
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 1000px){
     span br {
         content: " ";
         display: none;
@@ -219,23 +221,29 @@ h4 {
         }
 
 }
-@media (max-width: 320px){
+@media only screen 
+and (max-width: 413px)
+and (min-device-width : 210px){
+    span br {
+        content: " ";
+        display: none;
+    } 
     span {
         
-        font-size: 1%;
+        font-size: 10px;
         height: auto;
         margin-left: 0;
         
     }
     img {
         margin-right: 0;
-        box-shadow: none;
+        box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, 0.35);
         border-radius: none;
     }
 
     h4 {
         font-weight: 600;
-        font-size: 30%;
+        font-size: 15px;
         width: min-content;
         height: auto;
         font-family: 'Poppins', sans-serif;
@@ -245,32 +253,99 @@ h4 {
     
 
 }
-@media (max-width: 163px){
+@media only screen 
+and (max-width: 209px)
+and (min-device-width : 130px){
     h4 {
 
-        font-size: 20%;
-        width: min-content;
+        font-size: 8px;
+        width: max-content;
         height: auto;
         padding: 0;
         margin:0;
+        
+    }
+    span br {
+        content: " ";
+        display: none;
+    } 
+    span {
+        
+        font-size: 7px;
+        height: auto;
+        margin-left: 0;
         
     }
 }
-@media (max-width: 100px){
-    h4 {
-        font-weight: 600;
-        font-size: 10%;
-    
+@media only screen 
+and (max-width: 129px)
+and (min-device-width : 100px){
+    span br {
+        content: " ";
+        display: none;
+    } 
+    span {
+        
+        font-size: 4px;
         height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+    h4 {
+
+        font-size: 7px;
+        width: min-content;
         padding: 0;
         margin:0;
         
     }
-    span {
-        font-size: 0.2%;
-        width: auto;
-        height: auto;
+    img {
         margin: 0;
+        box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, 0.35);
+        border-radius: none;
+    }
+    
+    .container {
+        grid-column-gap: 4%;
+        grid-row-gap: 2%;
+
+    }
+
+}
+@media only screen 
+and (max-width: 99px){
+    span br {
+        content: " ";
+        display: none;
+    } 
+    span {
+        
+        font-size: 4px;
+        height: auto;
+        float: right;
+        
+
         
     }
+    h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 4px;
+        width: max-content;
+        
+    }
+    img {
+        margin: 0;
+        box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, 0.35);
+        border-radius: none;
+    }
+    
+    .container {
+        grid-column-gap: 1%;
+        grid-row-gap: 1%;     
+    }
+ 
+    
+
 }
