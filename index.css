@@ -197,12 +197,11 @@ h4 {
 }
 @media (max-width: 320px){
     span {
-        display: flex;
+        
         font-size: 1%;
-        width: auto;
         height: auto;
         margin-left: 0;
-        align-content: center;
+        
     }
     img {
         margin-right: 0;
@@ -212,8 +211,8 @@ h4 {
 
     h4 {
         font-weight: 600;
-        font-size: 50%;
-        width: max-content;
+        font-size: 30%;
+        width: min-content;
         height: auto;
         font-family: 'Poppins', sans-serif;
         margin:0;
