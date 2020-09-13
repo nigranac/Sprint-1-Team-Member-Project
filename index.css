@@ -174,7 +174,7 @@ h4 {
     display: none;
   }
   span {
-    font-size: 10px;
+    font-size: 7px;
     height: auto;
     margin-left: 3px;
   }
@@ -199,6 +199,14 @@ h4 {
       "m3 m4"
       "m5 m6";
   }
+  h4 {
+    font-weight: 600;
+    font-size: 7px;
+    width: min-content;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    }
 }
 @media only screen and (max-width: 413px) and (min-device-width: 210px) {
   span br {
@@ -218,14 +226,14 @@ h4 {
 
   h4 {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 10px;
     width: min-content;
     height: auto;
     font-family: "Poppins", sans-serif;
     margin: 0;
     }
   .container {
-    grid-column-gap: 15%;
+    grid-column-gap: 4%;
     grid-row-gap: 5%;}
   }
 @media only screen and (max-width: 209px) and (min-device-width: 130px) {
